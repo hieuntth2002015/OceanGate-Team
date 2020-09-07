@@ -6583,11 +6583,12 @@ html .bg--parallax {
   border-radius: 2rem;
   margin: 1rem 0;
   text-transform: uppercase;
-  color: #eee;
+  color: rgb(255, 251, 251);
   font-size: 1.4rem;
   transition: all .5s;
 }
-.car .btn:hover {
+.card .btn:hover {
+  background-color: red;
   transform: translateY(-2px);
   box-shadow: .5rem .5rem 2rem rgba(0,0,0,.2);
 }
