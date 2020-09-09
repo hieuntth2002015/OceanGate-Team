@@ -6519,10 +6519,15 @@ html .bg--parallax {
   position: relative;
 }
 .ourteam::after{
+  background: #0010f7;
+	background: -webkit-linear-gradient(to right, #0213ff, #e90b42);
+	background: linear-gradient(to right, #370df3, #e407ec);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
   content: "";
   width: 10rem;
   height: .8rem;
-  background-color: #0051ff;;
   position: absolute;
   bottom: -2rem;
   left: 50%;
