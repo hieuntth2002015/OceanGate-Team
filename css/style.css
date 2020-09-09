@@ -359,9 +359,9 @@ iframe {
   .ps-container {
     width: 1440px; }}
 .ps-main {
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease; }
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  transition: all 0.1s ease; }
 
 @media (max-width: 767px) {
   .ps-col-tiny .col-xs-12 {
@@ -2995,7 +2995,7 @@ textarea.form-control {
   height: 60px;
   margin: -20px 0 0 -20px;
   border: 8px solid #0051ff;;
-  border-bottom-color: #219962;
+  border-bottom-color: #1900fc;
   border-radius: 50%;
   animation: animLoader 0.8s linear infinite forwards; }
 
@@ -3606,7 +3606,7 @@ textarea.form-control {
       display: inline-block;
       font-family: "Archivo Narrow", sans-serif;
       padding: 5px 20px;
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 700;
       line-height: 80px;
       text-transform: uppercase;
@@ -4005,7 +4005,7 @@ textarea.form-control {
     top: 100%;
     right: 0;
     width: 300px;
-    background-color: #313645;
+    background-color: #fdfdfd;
     z-index: 1000;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -4030,7 +4030,7 @@ textarea.form-control {
       text-align: left;
       font-family: "Montserrat", sans-serif;
       font-size: 16px;
-      color: #fff; }
+      color: rgb(2, 2, 2); }
       .ps-cart__total p span {
         float: right;
         font-weight: 600;
@@ -4117,7 +4117,7 @@ textarea.form-control {
       -o-transform: rodtatscale(1.2, 1.2);
       transform: rodtatscale(1.2, 1.2); }
     .ps-cart-item__thumbnail:hover > a {
-      background-color: rgba(42, 195, 125, 0.5); }
+      background-color: rgba(0, 81, 255, 0.5); }
   .ps-cart-item__title {
     display: block;
     margin-bottom: 10px;
@@ -4125,7 +4125,7 @@ textarea.form-control {
     font-size: 16px;
     line-height: 1.5em;
     text-align: left;
-    color: #fff; }
+    color: rgb(0, 0, 0); }
     .ps-cart-item__title:hover {
       color: #0051ff;; }
   .ps-cart-item__content {
@@ -4150,7 +4150,7 @@ textarea.form-control {
     right: 15px;
     width: 16px;
     height: 16px;
-    background-color: #999;
+    background-color: rgb(255, 255, 255);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -4163,7 +4163,7 @@ textarea.form-control {
       left: 50%;
       width: 8px;
       height: 1px;
-      background-color: #fff;
+      background-color: rgb(255, 255, 255);
       -webkit-transform: translate(-50%, -50%) rotate(45deg);
       -moz-transform: translate(-50%, -50%) rotate(45deg);
       -ms-transform: translate(-50%, -50%) rotate(45deg);
@@ -6504,6 +6504,9 @@ html .bg--parallax {
 .aboutus {
   padding: 10rem 0;
   background-color: #fff;
+}
+.aboutus hr{
+  max-width:60%;
 }
 .ourteam {
   text-transform: uppercase;
