@@ -256,9 +256,9 @@ p {
 a {
   color: inherit;
   text-decoration: none;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease; }
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
   a:hover {
     color: #0051ff;; }
 
@@ -359,9 +359,9 @@ iframe {
   .ps-container {
     width: 1440px; }}
 .ps-main {
-  -webkit-transition: all 0.1s ease;
-  -moz-transition: all 0.1s ease;
-  transition: all 0.1s ease; }
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out; }
 
 @media (max-width: 767px) {
   .ps-col-tiny .col-xs-12 {
@@ -493,9 +493,9 @@ iframe {
     width: 0;
     height: 1px;
     background-color: #0051ff;;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
   .ps-list--line a:hover {
     padding-left: 25px;
     color: #0051ff;; }
@@ -524,9 +524,9 @@ iframe {
       width: 20px;
       height: 20px;
       border: solid 1px #8d8d8d;
-      -webkit-transition: all 0.4s ease;
-      -moz-transition: all 0.4s ease;
-      transition: all 0.4s ease; }
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out; }
     .ps-list--checked li a:after {
       content: '';
       display: inline-block;
@@ -681,9 +681,9 @@ textarea.form-control {
       width: 20px;
       z-index: 10;
       border: 2px solid #ccc;
-      -webkit-transition: all 0.4s ease;
-      -moz-transition: all 0.4s ease;
-      transition: all 0.4s ease;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
       -webkit-border-radius: 3px;
       -moz-border-radius: 3px;
       -ms-border-radius: 3px;
@@ -706,9 +706,9 @@ textarea.form-control {
       -ms-transform: rotate(0deg);
       -o-transform: rotate(0deg);
       transform: rotate(0deg);
-      -webkit-transition: all 0.4s ease;
-      -moz-transition: all 0.4s ease;
-      transition: all 0.4s ease; }
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out; }
   .ps-checkbox input[type=checkbox]:checked ~ label:after {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -744,9 +744,9 @@ textarea.form-control {
       width: 20px;
       z-index: 10;
       border: 1px solid #ccc;
-      -webkit-transition: all 0.4s ease;
-      -moz-transition: all 0.4s ease;
-      transition: all 0.4s ease;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
@@ -771,9 +771,9 @@ textarea.form-control {
       -ms-transform: scale(1.5, 1.5);
       -o-transform: scale(1.5, 1.5);
       transform: scale(1.5, 1.5);
-      -webkit-transition: all 0.6s ease;
-      -moz-transition: all 0.6s ease;
-      transition: all 0.6s ease; }
+      -webkit-transition: all 0.6s ease-in-out;
+      -moz-transition: all 0.6s ease-in-out;
+      transition: all 0.6s ease-in-out; }
   .ps-radio input[type=radio]:checked ~ label:after {
     -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
@@ -858,9 +858,9 @@ textarea.form-control {
       width: 16px;
       z-index: 10;
       background-color: #fff;
-      -webkit-transition: all 0.4s ease;
-      -moz-transition: all 0.4s ease;
-      transition: all 0.4s ease;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
@@ -885,9 +885,9 @@ textarea.form-control {
       -ms-transform: scale(1.5, 1.5);
       -o-transform: scale(1.5, 1.5);
       transform: scale(1.5, 1.5);
-      -webkit-transition: all 0.6s ease;
-      -moz-transition: all 0.6s ease;
-      transition: all 0.6s ease; }
+      -webkit-transition: all 0.6s ease-in-out;
+      -moz-transition: all 0.6s ease-in-out;
+      transition: all 0.6s ease-in-out; }
   .ps-radio input[type=radio]:checked ~ label:after {
     -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
@@ -982,9 +982,9 @@ textarea.form-control {
     font-family: "Montserrat", sans-serif;
     color: #fff;
     font-size: 20px;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
     .form-group--number button:hover {
       background-color: #f10000; }
     .form-group--number button.minus {
@@ -1023,9 +1023,9 @@ textarea.form-control {
     width: 20px;
     background-color: #fff;
     z-index: 100;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
   .menu-toggle span {
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -1103,16 +1103,16 @@ textarea.form-control {
   color: #8d8d8d;
   text-transform: uppercase;
   line-height: 1.5em;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease; }
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
   .ps-morelink i {
     vertical-align: center;
     line-height: 26px;
     margin-left: 5px;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
   .ps-morelink:hover i {
     margin-left: 10px; }
 
@@ -1133,9 +1133,9 @@ textarea.form-control {
   -moz-border-radius: 60px;
   -ms-border-radius: 60px;
   border-radius: 60px;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease; }
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
   .ps-btn i, button.ps-btn i {
     margin-left: 10px;
     font-size: 14px; }
@@ -1156,9 +1156,9 @@ textarea.form-control {
     -moz-border-radius: 60px;
     -ms-border-radius: 60px;
     border-radius: 60px;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
   .ps-btn:hover, button.ps-btn:hover {
     background-color: #f10000;
     color: #fff; }
@@ -1197,9 +1197,9 @@ textarea.form-control {
     -ms-transform-origin: 50% 50%;
     -o-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
   .ps-remove:before {
     -webkit-transform: translate(-50%, -50%) rotate(-45deg);
     -moz-transform: translate(-50%, -50%) rotate(-45deg);
@@ -1258,9 +1258,9 @@ textarea.form-control {
     width: 120px;
     visibility: hidden;
     opacity: 0;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
     .ps-post__actions .ps-post__social ul::after {
       clear: both;
       content: "";
@@ -1451,9 +1451,9 @@ textarea.form-control {
       .ps-post--2 .ps-post__thumbnail > a:before, .ps-post--2 .ps-post__thumbnail > a:after {
         content: '';
         position: absolute;
-        -webkit-transition: all 0.4s ease;
-        -moz-transition: all 0.4s ease;
-        transition: all 0.4s ease; }
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out; }
       .ps-post--2 .ps-post__thumbnail > a:before {
         top: 30px;
         right: 20px;
@@ -1494,16 +1494,16 @@ textarea.form-control {
       -ms-border-radius: 5px 5px 0 0;
       border-radius: 5px 5px 0 0; }
     .ps-post--2 .ps-post__thumbnail:hover > a {
-      background-color: rgba(42, 195, 125, 0.35); }
+      background-color: rgba(16, 0, 247, 0.35); }
       .ps-post--2 .ps-post__thumbnail:hover > a:before, .ps-post--2 .ps-post__thumbnail:hover > a:after {
         -webkit-transform: scale(1);
         -moz-transform: scale(1);
         -ms-transform: scale(1);
         -o-transform: scale(1);
         transform: scale(1);
-        -webkit-transition-delay: 0.15s;
-        -moz-transition-delay: 0.15s;
-        transition-delay: 0.15s; }
+        -webkit-transition-delay: 0.015s;
+        -moz-transition-delay: 0.015s;
+        transition-delay: 0.015s; }
   .ps-post--2 .ps-post__container {
     padding-left: 30px; }
   .ps-post--2 .ps-post__title {
@@ -1842,9 +1842,9 @@ textarea.form-control {
       cursor: pointer;
       font-size: 13px;
       border: 1px solid #e4e4e4;
-      -webkit-transition: all 0.4s ease;
-      -moz-transition: all 0.4s ease;
-      transition: all 0.4s ease; }
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out; }
       .ps-widget--sidebar .ps-table--size tbody > tr > td.active, .ps-widget--sidebar .ps-table--size tbody > tr > td:hover {
         background-color: #0051ff;;
         color: #fff; }
@@ -1894,9 +1894,9 @@ textarea.form-control {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
     .ps-search--widget > button:hover {
       color: #0051ff;; }
 
@@ -1906,9 +1906,9 @@ textarea.form-control {
 .ps-shoe {
   position: relative;
   padding-bottom: 70px;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease; }
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
   .ps-shoe:before {
     content: '';
     position: absolute;
@@ -1925,9 +1925,9 @@ textarea.form-control {
     -ms-transform: scale(0.8, 0.8);
     -o-transform: scale(0.8, 0.8);
     transform: scale(0.8, 0.8);
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
   .ps-shoe .ps-shoe__thumbnail {
     position: relative;
     z-index: 100; }
@@ -1951,9 +1951,9 @@ textarea.form-control {
     width: 100%;
     z-index: 1000;
     overflow: hidden;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
   .ps-shoe .ps-shoe__variants {
     position: absolute;
     top: 10px;
@@ -1964,9 +1964,9 @@ textarea.form-control {
     max-height: 90px;
     visibility: hidden;
     opacity: 0;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
     -webkit-transform: translateY(-100px);
     -moz-transform: translateY(-100px);
     -ms-transform: translateY(-100px);
@@ -2046,9 +2046,9 @@ textarea.form-control {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
     -webkit-transform: scale(0, 0);
     -moz-transform: scale(0, 0);
     -ms-transform: scale(0, 0);
@@ -2279,9 +2279,9 @@ textarea.form-control {
       transform: translate(-50%, -50%);
       color: #fff;
       font-size: 16px;
-      -webkit-transition: all 0.4s ease;
-      -moz-transition: all 0.4s ease;
-      transition: all 0.4s ease;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
       -webkit-transform: translate(-50%, -50%) rotate(0);
       -moz-transform: translate(-50%, -50%) rotate(0);
       -ms-transform: translate(-50%, -50%) rotate(0);
@@ -2310,9 +2310,9 @@ textarea.form-control {
       -ms-transform: translate(-50%, -20px);
       -o-transform: translate(-50%, -20px);
       transform: translate(-50%, -20px);
-      -webkit-transition: all 0.8s ease;
-      -moz-transition: all 0.8s ease;
-      transition: all 0.8s ease;
+      -webkit-transition: all 0.8s ease-in-out;
+      -moz-transition: all 0.8s ease-in-out;
+      transition: all 0.8s ease-in-out;
       visibility: hidden;
       opacity: 0; }
       .ps-hotspot .point > .ps-hotspot__content:before {
@@ -2418,9 +2418,9 @@ textarea.form-control {
           -moz-border-radius: 50%;
           -ms-border-radius: 50%;
           border-radius: 50%;
-          -webkit-transition: all 0.4s ease;
-          -moz-transition: all 0.4s ease;
-          transition: all 0.4s ease; }
+          -webkit-transition: all 0.4s ease-in-out;
+          -moz-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out; }
         .ps-pagination .pagination li > a:before {
           width: 50px;
           height: 50px;
@@ -2491,9 +2491,9 @@ textarea.form-control {
       visibility: hidden;
       opacity: 0;
       background-color: rgba(255, 255, 255, 0.6);
-      -webkit-transition: all 0.4s ease;
-      -moz-transition: all 0.4s ease;
-      transition: all 0.4s ease; }
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out; }
     .ps-user .ps-user__thumbnnail:hover:before {
       visibility: visible;
       opacity: 1; }
@@ -2513,9 +2513,9 @@ textarea.form-control {
     z-index: 20;
     visibility: hidden;
     opacity: 0;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
     .ps-user .ps-user__social li {
       display: inline-block;
       margin-right: 12px; }
@@ -2889,9 +2889,9 @@ textarea.form-control {
   position: relative;
   overflow: hidden; }
   .ps-offer img {
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
     -webkit-transform: scale3d(1.05, 1.05, 1);
     -moz-transform: scale3d(1.05, 1.05, 1);
     -ms-transform: scale3d(1.05, 1.05, 1);
@@ -2911,9 +2911,9 @@ textarea.form-control {
     -ms-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -120%, 0);
     -o-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -120%, 0);
     transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -120%, 0);
-    -webkit-transition: all 0.6s ease;
-    -moz-transition: all 0.6s ease;
-    transition: all 0.6s ease; }
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out; }
   .ps-offer:hover img {
     -webkit-transform: scale3d(1, 1, 1);
     -moz-transform: scale3d(1, 1, 1);
@@ -2984,9 +2984,9 @@ textarea.form-control {
   width: 100%;
   height: 100%;
   background: #fff;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  transition: all 1s ease; }
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; }
 
 .ps-loading:after {
   top: 50%;
@@ -2997,14 +2997,14 @@ textarea.form-control {
   border: 8px solid #0051ff;;
   border-bottom-color: #1900fc;
   border-radius: 50%;
-  animation: animLoader 0.8s linear infinite forwards; }
+  animation: animLoader 0.8s ease-in-out infinite forwards; }
 
 .ps-loading.loaded:before, .ps-loading.loaded:after {
   visibility: hidden;
   opacity: 0;
-  -webkit-transition-delay: 0.5s;
-  -moz-transition-delay: 0.5s;
-  transition-delay: 0.5s; }
+  -webkit-transition-delay: 0.005s;
+  -moz-transition-delay: 0.005s;
+  transition-delay: 0.005s; }
 
 @keyframes animLoader {
   to {
@@ -3115,9 +3115,9 @@ textarea.form-control {
       -ms-border-radius: 50%;
       border-radius: 50%;
       background-color: transparent;
-      -webkit-transition: all 0.4s ease;
-      -moz-transition: all 0.4s ease;
-      transition: all 0.4s ease; }
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out; }
       .ps-home-testimonial .owl-slider .owl-dot:hover, .ps-home-testimonial .owl-slider .owl-dot.active {
         background-color: #0051ff;;
         border-color: #0051ff;; }
@@ -3312,9 +3312,9 @@ textarea.form-control {
         color: #fd0606;
         visibility: hidden;
         opacity: 0;
-        -webkit-transition: all 0.4s ease;
-        -moz-transition: all 0.4s ease;
-        transition: all 0.4s ease; }
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out; }
       .ps-section--features-product .ps-masonry__filter li > a:hover {
         color: #f30707; }
     .ps-section--features-product .ps-masonry__filter li:last-child {
@@ -3405,9 +3405,9 @@ textarea.form-control {
     margin-right: 0;
     width: 100%;
     text-align: left;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
     .sub-menu > li > a {
       position: relative;
       z-index: 10;
@@ -3465,9 +3465,9 @@ textarea.form-control {
   width: 100%;
   z-index: 10000;
   background-color: #fff;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   -webkit-transform: translateY(-30px);
   -moz-transform: translateY(-30px);
   -ms-transform: translateY(-30px);
@@ -3530,9 +3530,9 @@ textarea.form-control {
       width: 0;
       height: 1px;
       background-color: #0051ff;;
-      -webkit-transition: all 0.3s ease;
-      -moz-transition: all 0.3s ease;
-      transition: all 0.3s ease; }
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
     .mega-menu .mega-item a:hover {
       padding-left: 25px;
       color: #0051ff; }
@@ -3559,9 +3559,9 @@ textarea.form-control {
       -ms-transform: translateY(0);
       -o-transform: translateY(0);
       transform: translateY(0);
-      -webkit-transition: all 0s ease;
-      -moz-transition: all 0s ease;
-      transition: all 0s ease;
+      -webkit-transition: all 0s ease-in-out;
+      -moz-transition: all 0s ease-in-out;
+      transition: all 0s ease-in-out;
       visibility: visible;
       opacity: 1;
       display: none; }
@@ -3625,9 +3625,9 @@ textarea.form-control {
         width: 100%;
         background-color: #0051ff;;
         z-index: -1;
-        -webkit-transition: all 0.4s ease;
-        -moz-transition: all 0.4s ease;
-        transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
         -webkit-border-radius: 30px;
         -moz-border-radius: 30px;
         -ms-border-radius: 30px;
@@ -3808,9 +3808,9 @@ textarea.form-control {
       .menu .sub-menu {
         padding: 0;
         position: relative;
-        -webkit-transition: all 0s ease;
-        -moz-transition: all 0s ease;
-        transition: all 0s ease; }
+        -webkit-transition: all 0s ease-in-out;
+        -moz-transition: all 0s ease-in-out;
+        transition: all 0s ease-in-out; }
         .menu .sub-menu > li {
           border-bottom: 1px solid #eee; }
           .menu .sub-menu > li > a {
@@ -3936,9 +3936,9 @@ textarea.form-control {
       letter-spacing: .05em;
       background-color: #0051ff;;
       color: #fff;
-      -webkit-transition: all 0.4s ease;
-      -moz-transition: all 0.4s ease;
-      transition: all 0.4s ease; }
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out; }
       .ps-subscribe__form button:hover {
         background-color: #f10000; }
   @media (max-width: 1600px) {
@@ -3968,9 +3968,9 @@ textarea.form-control {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
     .ps-cart__toggle i {
       position: absolute;
       top: 50%;
@@ -4007,9 +4007,9 @@ textarea.form-control {
     width: 300px;
     background-color: #fdfdfd;
     z-index: 1000;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
     -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
     -ms-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
@@ -4100,9 +4100,9 @@ textarea.form-control {
     overflow: hidden; }
     .ps-cart-item__thumbnail > img {
       vertical-align: top;
-      -webkit-transition: all 0.4s ease;
-      -moz-transition: all 0.4s ease;
-      transition: all 0.4s ease; }
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out; }
     .ps-cart-item__thumbnail > a {
       position: absolute;
       top: 0;
@@ -4414,9 +4414,9 @@ textarea.form-control {
     font-size: 15px;
     border: none;
     background-color: transparent;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
     .ps-search--header > button:hover {
       color: #0051ff;; }
   @media (max-width: 1440px) {
@@ -4566,9 +4566,9 @@ textarea.form-control {
       font-size: 12px; } }
 
 .header {
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease; }
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
   .header .ps-logo {
     padding-top: 0px;
     display: inline-block;
@@ -4616,9 +4616,9 @@ textarea.form-control {
   -ms-transform: translateX(100%);
   -o-transform: translateX(100%);
   transform: translateX(100%);
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease; }
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
   .header--sidebar.active {
     -webkit-transform: translateX(0%);
     -moz-transform: translateX(0%);
@@ -4667,7 +4667,7 @@ textarea.form-control {
   left: 0;
   width: 100%;
   z-index: 100000;
-  transition: all 0.4s ease; }
+  transition: all 0.4s ease-in-out; }
   .navigation--sticky .navigation {
     background-color: #fff; }
   @media (max-width: 1199px) {
@@ -4942,9 +4942,9 @@ textarea.form-control {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
     .ps-product--detail .ps-product__shopping .ps-product__actions a i {
       position: absolute;
       top: 50%;
@@ -4966,9 +4966,9 @@ textarea.form-control {
   .ps-product--detail .ps-product__preview .item {
     margin: 10px;
     border: 3px solid #e5e5e5;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
     .ps-product--detail .ps-product__preview .item:hover {
       border-color: #8d8d8d; }
     .ps-product--detail .ps-product__preview .item:focus {
@@ -5003,9 +5003,9 @@ textarea.form-control {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease; }
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
     .ps-product--detail .ps-product__video i:before {
       position: absolute;
       top: 50%;
@@ -5130,9 +5130,9 @@ textarea.form-control {
         width: 0;
         height: 2px;
         background-color: #0051ff;;
-        -webkit-transition: all 0.4s ease;
-        -moz-transition: all 0.4s ease;
-        transition: all 0.4s ease; }
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out; }
       .ps-product--detail .ps-product__content .tab-list li a:hover {
         color: #0051ff;; }
         .ps-product--detail .ps-product__content .tab-list li a:hover:before {
@@ -5451,9 +5451,9 @@ textarea.form-control {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   vertical-align: top; }
   .ps-product-favorite i {
     position: absolute;
@@ -6640,7 +6640,7 @@ html .bg--parallax {
 
   .card{
     margin: 2rem;
-    transition: all 0.5s ease 0s;
+    transition: all 0.5s ease-in-out 0s;
   }
   .card:hover {
     transform: scale(1.2) translateY(-3px);}
