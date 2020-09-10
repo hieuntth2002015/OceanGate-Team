@@ -1850,7 +1850,10 @@ textarea.form-control {
       .ps-widget--sidebar .ps-table--size tbody > tr > td.active, .ps-widget--sidebar .ps-table--size tbody > tr > td:hover {
         background-color: #0051ff;;
         color: #fff; }
-
+        .ps-checkout__order .content .table > tbody + tbody {
+          margin-top:20px;
+          border-top: 1px solid rgb(180, 180, 180);
+      }
 .ps-sticky {
   position: relative; }
 
@@ -4015,8 +4018,6 @@ textarea.form-control {
     right: 0;
     width: 300px;
     background-color: #fdfdfd;
-    background: -webkit-linear-gradient(to right, #9fdef7, #ffeb90);
-    background: linear-gradient(to right, #9fdef7, #fdcfff);
     z-index: 1000;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -4133,13 +4134,13 @@ textarea.form-control {
   .ps-cart-item__title {
     display: block;
     margin-bottom: 10px;
-    font-family: "Archivo Narrow", sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5em;
     text-align: left;
     color: rgb(0, 0, 0); }
     .ps-cart-item__title:hover {
-      color: #0051ff;; }
+      color: #1100ff;; }
   .ps-cart-item__content {
     float: left;
     width: calc(100% - 60px);
