@@ -1535,6 +1535,86 @@ textarea.form-control {
       clear: both;
       content: "";
       display: table; }
+      .r-link{
+        display: var(--rLinkDisplay, inline-flex) !important;
+      }
+      
+      .r-link[href]{
+        color: var(--rLinkColor) !important;
+        text-decoration: var(--rLinkTextDecoration, none) !important;
+      }
+      
+      .text-underlined{
+        /*
+            1. I use pixels units because others units (em, rem, vw, vh, etc) can
+            lead to the mistake of displaying a circumcised line
+        */
+      
+        --uiTextUnderlinedLineHeight: var(--textUnderlinedLineHeight, 2px); /* 1 */
+        --uiTextUnderlinedLineGap: var(--textUnderlinedLineGap, .5rem);
+        --uiTextUnderlinedPaddingBottom: calc(var(--uiTextUnderlinedLineHeight) + var(--uiTextUnderlinedLineGap));
+      
+        padding-bottom: var(--uiTextUnderlinedPaddingBottom) !important;
+        position: var(--textUnderlinedPosition, relative) !important;
+            z-index: var(--textUnderlinedZindex, 1) !important;
+      }
+      
+      .text-underlined::after{
+        content: "";
+        width: var(--textUnderlinedLineWidht, 100%) !important;
+        height: var(--uiTextUnderlinedLineHeight) !important;
+            background-image: var(--textUnderlinedBackgroundImage, linear-gradient(to top, var(--textUnderlinedLineColor, currentColor) 30%, rgba(0, 0, 0, 0) 45%)) !important;
+      
+        position: absolute;
+        left: var(--textUnderlinedLineLeft, 0) !important;
+        bottom: var(--textUnderlinedLineBottom, 0) !important;
+            z-index: var(--textUnderlinedLineZindex, -1) !important;
+      }
+      
+      /*
+      =====
+      CORE
+      =====
+      */
+      
+      .link{
+        --textUnderlinedLineHeight: 100%;
+        --textUnderlinedLineGap: 0;
+        --textUnderlinedLineColor: #fed330;
+        
+        padding-left: .75rem;
+        padding-right: .75rem;
+      }
+      
+      .link::after{
+        will-change: width;
+        transition: width .1s ease-out;
+        transform: rotate(-2deg);
+        transform-origin: left bottom;
+      }
+      
+      .link:hover{
+        --textUnderlinedLineWidht: 0;
+      }
+      
+      .link:hover::after{
+        transition-duration: .15s;
+      }
+      
+      /*
+      * These styles for text decoration. The demo will be work without it
+      */
+      
+      .link{
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      
+      .link:focus{
+        outline: 2px solid #fed330;
+        outline-offset: .5rem;
+      }
+         
   .ps-post--2 .ps-post__morelink {
     font-family: "Archivo Narrow", sans-serif;
     font-size: 16px;
@@ -3014,19 +3094,28 @@ textarea.form-control {
 @keyframes animLoader {
   to {
     transform: rotate(360deg); } }
-
+    .ps-section__title:hover {
+      -webkit-transform: scale(1.05);
+         -moz-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+           -o-transform: scale(1.05);
+              transform: scale(1.05);  
+    }
+    
+    .ps-section__title {
+      -webkit-transition: all 0.1s linear;
+              transition: all 0.1s linear;
+    }
 .ps-section__title {
   position: relative;
   z-index: 10;
   min-width: 50%;
   display: inline-block;
-  font-family: "Archivo Narrow", sans-serif;
-  font-weight: 700;
   color: #0112ff;
   line-height: 81px;
   text-transform: uppercase;
   min-width: 1000px;
-  font: italic bold 50px Georgia, Serif;
+  font: bold 50px Georgia, Serif;
 	text-shadow: 0 1px 0 #ccc,
 		0 2px 0 #c9c9c9,
 		0 3px 0 #bbb,
@@ -3038,20 +3127,31 @@ textarea.form-control {
 		0 3px 5px rgba(0,0,0,.2),
 		0 5px 10px rgba(0,0,0,.25),
 		0 10px 10px rgba(0,0,0,.2),
-		0 20px 20px rgba(0,0,0,.15); }
+    0 20px 20px rgba(0,0,0,.15); }
+    .ps-section__title1:hover {
+      -webkit-transform: scale(1.05);
+         -moz-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+           -o-transform: scale(1.05);
+              transform: scale(1.05);  
+    }
+    
+    .ps-section__title1 {
+      -webkit-transition: all 0.1s linear;
+              transition: all 0.1s linear;
+    }
+    
   .ps-section__title1 {
     margin-left:2%;
     position: relative;
     z-index: 10;
     min-width: 50%;
     display: inline-block;
-    font-family: "Archivo Narrow", sans-serif;
-    font-weight: 700;
     color: #0112ff;
     line-height: 81px;
     text-transform: uppercase;
     min-width: 1000px; 
-    font: italic bold 50px Georgia, Serif;
+    font: bold 50px Georgia, Serif;
     text-shadow: 0 1px 0 #ccc,
       0 2px 0 #c9c9c9,
       0 3px 0 #bbb,

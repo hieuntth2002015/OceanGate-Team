@@ -1,104 +1,116 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/*
+=====
+DEPENDENCIES
+=====
+*/
+
+.r-link{
+  display: var(--rLinkDisplay, inline-flex) !important;
+}
+
+.r-link[href]{
+  color: var(--rLinkColor) !important;
+  text-decoration: var(--rLinkTextDecoration, none) !important;
+}
+
+.text-underlined{
+  /*
+      1. I use pixels units because others units (em, rem, vw, vh, etc) can
+      lead to the mistake of displaying a circumcised line
+  */
+
+  --uiTextUnderlinedLineHeight: var(--textUnderlinedLineHeight, 2px); /* 1 */
+  --uiTextUnderlinedLineGap: var(--textUnderlinedLineGap, .5rem);
+  --uiTextUnderlinedPaddingBottom: calc(var(--uiTextUnderlinedLineHeight) + var(--uiTextUnderlinedLineGap));
+
+  padding-bottom: var(--uiTextUnderlinedPaddingBottom) !important;
+  position: var(--textUnderlinedPosition, relative) !important;
+      z-index: var(--textUnderlinedZindex, 1) !important;
+}
+
+.text-underlined::after{
+  content: "";
+  width: var(--textUnderlinedLineWidht, 100%) !important;
+  height: var(--uiTextUnderlinedLineHeight) !important;
+      background-image: var(--textUnderlinedBackgroundImage, linear-gradient(to top, var(--textUnderlinedLineColor, currentColor) 30%, rgba(0, 0, 0, 0) 45%)) !important;
+
+  position: absolute;
+  left: var(--textUnderlinedLineLeft, 0) !important;
+  bottom: var(--textUnderlinedLineBottom, 0) !important;
+      z-index: var(--textUnderlinedLineZindex, -1) !important;
+}
+
+/*
+=====
+CORE
+=====
+*/
+
+.link{
+  --textUnderlinedLineHeight: 100%;
+  --textUnderlinedLineGap: 0;
+  --textUnderlinedLineColor: #fed330;
+  
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+.link::after{
+  will-change: width;
+  transition: width .1s ease-out;
+  transform: rotate(-2deg);
+  transform-origin: left bottom;
+}
+
+.link:hover{
+  --textUnderlinedLineWidht: 0;
+}
+
+.link:hover::after{
+  transition-duration: .15s;
+}
+
+/*
+* These styles for text decoration. The demo will be work without it
+*/
+
+.link{
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.link:focus{
+  outline: 2px solid #fed330;
+  outline-offset: .5rem;
+}
+
+/*
+=====
+DEMO
+=====
+*/
+
+:root{
+  --rLinkColor: #222;
+}
 
 body{
-  font-family:'Open Sans', sans-serif;
-  background:#151837;
-  width:90%;
-  margin:0 auto;
-  padding:2em 0 6em;
-}
-.wrapper{
-  margin:3em 0;
-}
-a,a:visited,a:hover,a:active{
-  -webkit-backface-visibility:hidden;
-          backface-visibility:hidden;
-    position:relative;
-  transition:0.5s color ease;
-    text-decoration:none;
-    color:#81b3d2;
-    font-size:2.5em;
-}
-a:hover{
-    color:#d73444;
-}
-a.before:before,a.after:after{
-  content: "";
-  transition:0.5s all ease;
-  -webkit-backface-visibility:hidden;
-          backface-visibility:hidden;
-  position:absolute;
-}
-a.before:before{
-  top:-0.25em;
-}
-a.after:after{
-  bottom:-0.25em;
-}
-a.before:before,a.after:after{
-  height:5px;
-  height:0.35rem;
-  width:0;
-  background: -webkit-linear-gradient(to right, #0213ff, #e90b42);
-	background: linear-gradient(to right, #370df3, #e407ec);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+  display: flex;
+  height: 100vh;
 }
 
-a.before:hover:before,a.after:hover:after{
-  width:100%;
+.page{
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 25rem;
+  padding: 1rem;
+  margin: auto;
+  flex: none;
 }
-.square{
-  box-sizing:border-box;
-  margin-left:-0.4em;
-  position:relative;
-  font-size:2.5em;
-  overflow:hidden;
-}
-.square a{
-  position:static;
-  font-size:100%;
-  padding:0.2em 0.4em;
-}
-.square:before,.square:after{
-  content: "";
-  box-sizing:border-box;
-  transition:0.25s all ease;
-  -webkit-backface-visibility:hidden;
-          backface-visibility:hidden;
-  position:absolute;
-  width:5px;
-  width:0.35rem;
-  height:0;
- background: -webkit-linear-gradient(to right, #0213ff, #e90b42);
-	background: linear-gradient(to right, #370df3, #e407ec);
-}
-.square:before{
-  left:0;
-  bottom:-0.2em;
-}
-.square.individual:before{
-  transition-delay:0.6s;
-}
-.square:after{
-  right:0;
-  top:-0.2em;
-}
-.square.individual:after{
-  transition-delay:0.2s;
-}
-.square a:before{
-  left:0;
-  transition:0.25s all ease;
-}
-.square a:after{
-  right:0;
-  transition:0.25s all ease;
-}
-.square.individual a:after{
-  transition:0.25s all ease 0.4s;
-}
-.square:hover:before,.square:hover:after{
-  height:calc(100% + 0.4em);
-}
-.square:hover a:before,.square:hover a:after{
-  width:100%;
+
+p{
+  line-height: 1.6785;
+  font-family: georgia, serif;
 }
