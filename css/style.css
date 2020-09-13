@@ -348,7 +348,8 @@ iframe {
   .ps-container {
     width: 100%;
     margin: 0 auto;
-    padding: 0 15px; } }
+    padding: 0 15px; }
+   }
 
 @media (min-width: 1200px) {
   .ps-container {
@@ -3243,10 +3244,9 @@ textarea.form-control {
 
 @media (max-width: 767px) {
   .ps-section__title {
-    min-width: 0;
-    width: 100%;
+    left: 297px;
     font-size: 20px;
-    line-height: 60px; }
+    }
     .ps-section__title:before {
       font-size: 60px; }
   .ps-section__action {
@@ -3255,10 +3255,13 @@ textarea.form-control {
 
 @media (max-width: 479px) {
   .ps-section__title {
+    padding-bottom: 11px;
+    margin-left: -31px;
     margin-bottom: 20px;
     font-size: 18px; }
     .ps-section__title:before {
-      font-size: 40px; } }
+      font-size: 18px; }
+     }
 
 .ps-home-testimonial {
   position: relative;
@@ -3468,9 +3471,25 @@ textarea.form-control {
     position: relative;
     width: 50%;
     overflow: hidden; }
+    @media (max-width:479px) {
+      .ps-masonry__filter{
+        margin-left: -14px;
+        margin-top: 41px;
+      }
+    }
+    @media (max-width:760px) {
+      .ps-masonry__filter{
+        margin-left: -72px;
+    margin-top: 45px;
+      }
+    }
   @media (max-width: 991px) {
     .ps-section--offer .ps-column {
       width: 100%; } }
+      .ps-masonry__filter sup{
+        color:red;
+        left:0%;top: -10px;
+      }
       .ps-masonry__filter {
         position: absolute;
         
