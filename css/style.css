@@ -1176,6 +1176,7 @@ textarea.form-control {
     background: linear-gradient(to left, #fa5064, #fc7b67);
 
     color: rgb(255, 255, 255); }
+   
     .ps-btn:hover:before, button.ps-btn:hover:before {
       background-color: rgba(0, 0, 0, 0.1); }
   .ps-btn i, button.ps-btn i {
@@ -3813,6 +3814,10 @@ textarea.form-control {
       line-height: 80px;
       text-transform: uppercase;
       color: #000; }
+      .menu > li > a:active {
+        transform: scale(3.5);
+      }
+     
       .menu > li > a:before {
         content: '';
         position: absolute;
@@ -4148,6 +4153,9 @@ textarea.form-control {
         color:white;
         background: linear-gradient(to left, #ff5165, #ff7d69);
 
+        }
+        .ps-subscribe__form button:active {
+          transform: scale(3.5);
         }
         
   @media (max-width: 1600px) {
@@ -6788,12 +6796,15 @@ html .bg--parallax {
 }
 
 .card h1 {
-  font: bold 20px Georgia, Serif;
+  font-family: "Open Sans";
   font-size: 2.5rem;
-  color: #333;
+  color: rgb(3, 0, 0);
   margin: 1.5rem 0;
+  
 }
-
+.card .job-title {
+  color: red;
+}
 .job-title {
   color: #777;
   font-size: 1.5rem;
@@ -6990,7 +7001,7 @@ html .bg--parallax {
 .container1 button {
 	border-radius: 20px;
 	border: 1px solid #fa1717;
-	background-color: #fa1717;
+  background: linear-gradient(to left, #eb3349, #f45c43);
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -7000,7 +7011,7 @@ html .bg--parallax {
 	transition: transform 80ms ease-in;
 }
 .container1 button:hover{
-	background-color:rgb(250, 32, 32);
+	background: linear-gradient(to left, #ff455b, #ff7762);
 }
 
 .container1 button:active {
