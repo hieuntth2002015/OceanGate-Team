@@ -6811,6 +6811,7 @@ html .bg--parallax {
   font-weight: 300;
 }
 .about {
+  width: 80%;
   font-size: 1.5rem;
   margin: 1.5rem 0;
   font-style: italic;
