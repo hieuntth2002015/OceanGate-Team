@@ -7096,7 +7096,9 @@ html .bg--parallax {
 	max-width: 100%;
 	min-height: 600px;
 }
-
+.form-container1 h1{
+  color:#fa1717;
+}
 .form-container1 {
 	position: absolute;
 	top: 0;
