@@ -7453,7 +7453,7 @@ span:after
 }
 
 .checkout .left-side {
- background-color: var(--left-side);
+  background: linear-gradient(to left, #eb3349, #f45c43);
  width: 130px;
  height: 120px;
  border-radius: 4px;
