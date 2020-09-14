@@ -4691,6 +4691,7 @@ textarea.form-control {
   text-transform: uppercase; }
 
 .ps-contact__block {
+  box-shadow: 0 2px 10px -2px #fa1717;
   margin-bottom: 30px;
   padding: 15px;
   -webkit-border-radius: 4px;
@@ -6796,6 +6797,7 @@ html .bg--parallax {
   flex-direction: column;
 }
 .card {
+ 
   width: 32rem;
   background-color: #ebeef8;
   display: flex;
@@ -6821,6 +6823,7 @@ html .bg--parallax {
 	transform: rotateY(20deg);
 }
 .profile-img {
+  box-shadow: 0 2px 10px -2px #CD106E;
   width: 15rem;
   height: 15rem;
   object-fit: cover;
@@ -7949,9 +7952,12 @@ to {
 
 /*thu nghiem store*/
 .ps-main .thunghiem {
+  background: #f41f83;
+  box-shadow: 0 8px 65px -5px #CD106E;
   transform: translate(50%, 0%);
 }
 .ps-main .thuocthu{
+  
   text-align:center;
   font-size:20px;
   color:red;
