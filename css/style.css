@@ -7960,7 +7960,7 @@ to {
 /*thu nghiem store*/
 .ps-main .thunghiem {
   background: #f41f83;
-  box-shadow: 0 8px 65px -5px #CD106E;
+  box-shadow: 0 2px 10px -2px #CD106E;
   transform: translate(50%, 0%);
 }
 .ps-main .thuocthu{
