@@ -946,6 +946,10 @@ textarea.form-control {
     margin-right: 20px; }
 
 .ps-form--comment h3 {
+  padding: 2%;
+    box-shadow: 0 2px 10px -2px #fa1717;
+    
+    margin-right: 759px;
   margin-bottom: 30px;
   font-size: 24px;
   font-weight: 700;
@@ -3591,10 +3595,14 @@ textarea.form-control {
     .ps-owl-root .ps-owl-actions a:hover {
       color: #fa1717; }
   .ps-owl-root .ps-owl-actions .ps-prev {
-    margin-right: 55px; }
+    padding:2%;
+    box-shadow: 0 2px 10px -2px #CD106E;
+    margin-right: 20px; }
     .ps-owl-root .ps-owl-actions .ps-prev i {
       margin-right: 20px; }
   .ps-owl-root .ps-owl-actions .ps-next {
+    padding:2%;
+    box-shadow: 0 2px 10px -2px #CD106E;
     margin-right: 10px; }
     .ps-owl-root .ps-owl-actions .ps-next i {
       margin-left: 20px; }
@@ -7979,4 +7987,11 @@ to {
     stroke-dashoffset: 48;
     transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
   }
+}
+
+/*support posted*/
+.ps-post__meta .posted{
+  text-decoration: underline;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #1ab0c4;
 }
