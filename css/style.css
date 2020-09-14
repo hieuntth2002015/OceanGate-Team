@@ -1832,6 +1832,7 @@ textarea.form-control {
     letter-spacing: 5px;
     color: #ec0202;}
 .ps-banner .ps-banner__description p {
+  box-shadow: 0 2px 10px -2px #fcf9f9;
   display: block;
   font-family: Montserrat;
   font-size: 16px;
@@ -3203,6 +3204,7 @@ textarea.form-control {
 }
 
 .ps-section__title .cd{
+  box-shadow: 0 2px 10px -2px #CD106E;
   text-align: center;
   position: relative;
   display: block;
@@ -7338,6 +7340,7 @@ span:after
 }
 
 .blu{
+  box-shadow: 0 2px 10px -2px #CD106E;
   position: relative;
   display: block;
   color: #fa1717;
