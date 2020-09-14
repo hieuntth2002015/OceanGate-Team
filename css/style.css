@@ -3211,8 +3211,9 @@ textarea.form-control {
   transition: 1s all ease;
 }
 .ps-section__title .cd::before{
+  
   content: "";
-  background: linear-gradient(to left,#eecda3  ,   #ef629f);  
+  
   position: absolute;
   top:50%;
   left:50%;
@@ -4948,7 +4949,7 @@ textarea.form-control {
   -o-transform: translate(0, -100%);
   transform: translate(0, -100%); }
 .iervices {
-  background-color:rgb(241, 241, 241);
+  background-color:rgb(245, 245, 245);
 }
 .ps-services {
   position: relative;
