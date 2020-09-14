@@ -1568,9 +1568,9 @@ textarea.form-control {
         -moz-transition-delay: 0.015s;
         transition-delay: 0.015s; }
   .ps-post--2 .ps-post__container {
-    
+    box-shadow: 0 2px 10px -2px #fa1717;
     padding-right: 3px;
-    margin-right: 10%;
+    margin: 1%;
     padding-left: 40px; }
   .ps-post--2 .ps-post__title {
     display: block;
@@ -7991,4 +7991,9 @@ to {
 }
 .ps-post__store {
   padding-top:5%;
+}
+.diachi {
+  color:#fa1717;
+  margin-bottom:20px;
+  font: bold 25px Georgia, Serif;
 }
