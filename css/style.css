@@ -1226,7 +1226,7 @@ textarea.form-control {
 .ps-btn--gray, button.ps-btn--gray {
   background-color: #e5e5e5;
   border: none;
-  color: #000;
+  
   line-height: 20px; }
   .ps-btn--gray:before, button.ps-btn--gray:before {
     display: none; }
@@ -2869,9 +2869,10 @@ textarea.form-control {
   flex-flow: row nowrap; }
   .ps-comment .ps-comment__thumbnail {
     min-width: 100px;
-    width: 100px;
+    width: 130px;
     padding-right: 20px; }
     .ps-comment .ps-comment__thumbnail img {
+      box-shadow: 0 2px 10px -2px #fa1717; 
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
@@ -2921,10 +2922,10 @@ textarea.form-control {
          }
       .ps-comment .ps-reply1  >header > h4 {
         display: inline-block;
-        font-family: "Archivo Narrow", sans-serif;
-        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
         font-weight: 700;
-        color: #29203c;
+        color: #c79902;
         margin-left:1%;
          }
       .ps-comment .ps-reply1 >header > a {
@@ -4540,7 +4541,7 @@ textarea.form-control {
   font-family: "Archivo Narrow", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: #515356;
+  color: #fa1717;
   text-transform: uppercase;
   border-bottom: 1px solid #e5e5e5; }
 
