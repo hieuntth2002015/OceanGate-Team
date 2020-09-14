@@ -2103,8 +2103,10 @@ textarea.form-control {
   .ps-shoe .ps-shoe__thumbnail {
 	margin: 0;
 	padding: 0;
-	background: linear-gradient(to left, #eb3349, #f45c43);
-	overflow: hidden;
+  background: linear-gradient(to left, #fcb901, #fa1717);
+  /*box-shadow: 0 8px 65px -5px #CD106E;*/
+  overflow: hidden;
+  
   }
   
   .ps-shoe .ps-shoe__overlay{
@@ -2334,7 +2336,7 @@ textarea.form-control {
   width: 80px;
   height: 35px;
   z-index: 10;
-  background: linear-gradient(to left, #eb3349, #f45c43);
+  background: linear-gradient(to left, #bb0318, #f45c43);
 }
   .ps-badge > span {
     position: absolute;
@@ -3063,6 +3065,7 @@ textarea.form-control {
   line-height: 15px; }
 
 .ps-offer {
+  
   display: block;
   position: relative;
   overflow: hidden; }
@@ -3484,6 +3487,7 @@ textarea.form-control {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
   .ps-section--offer .ps-column {
+    box-shadow: 0 2px 7px -2px #CD106E;
     position: relative;
     width: 50%;
     overflow: hidden; }
