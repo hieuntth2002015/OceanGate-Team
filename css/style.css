@@ -1569,7 +1569,7 @@ textarea.form-control {
         -moz-transition-delay: 0.015s;
         transition-delay: 0.015s; }
   .ps-post--2 .ps-post__container {
-    background: linear-gradient(to left, #ecebeb,#eee6e3);
+    background: linear-gradient(to left, #ecebeb,#f3efef);
    
     padding-right: 50px;
     
