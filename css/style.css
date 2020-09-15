@@ -8001,3 +8001,7 @@ to {
   font: bold 25px Georgia, Serif;
 }
 /*marker store*/
+@media (min-width: 768px){}
+.address-store {
+    width: 78%;}
+}
