@@ -628,7 +628,7 @@ iframe {
 .form-control {
   outline: none;
   height: 50px;
-  background-color: #e4e4e4;
+  
   border-color: #e4e4e4;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -993,8 +993,8 @@ textarea.form-control {
     top: -2px;
     margin-right: -4px;
     display: inline-block;
-    width: 130px;
-    height: 40px;
+    width: 88px;
+    height: 35px;
     text-align: center;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -1004,10 +1004,10 @@ textarea.form-control {
       border-color: #f1f1f1; }
   .form-group--number button {
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     border: none;
-    background-color: #000;
+    background-color: rgb(156, 156, 156);
     font-family: "Montserrat", sans-serif;
     color: #fff;
     font-size: 20px;
@@ -1015,7 +1015,7 @@ textarea.form-control {
     -moz-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out; }
     .form-group--number button:hover {
-      background-color: #f10000; }
+      background: linear-gradient(to left, #eb3349,#f45c43);  }
     .form-group--number button.minus {
       float: left; }
 
