@@ -1292,11 +1292,13 @@ textarea.form-control {
     color: #5b5b5b; }
   .ps-post__actions span i.fa-heart, .ps-post__actions .ps-post__social i.fa-heart {
     color: #ff7b7b; }
-  .ps-post__actions span i.fa-share-alt, .ps-post__actions .ps-post__social i.fa-share-alt {
+  .ps-post__actions span i.fa-phone, .ps-post__actions .ps-post__social i.fa-phone {
     color: #43b8e5; }
   .ps-post__actions span:last-child, .ps-post__actions .ps-post__social:last-child {
     margin-right: 0; }
-
+    .ps-post__actions .ps-post__social {
+      font-size:16px;
+    }
 .ps-post__actions .ps-post__social {
   display: inline-block; }
 
@@ -1569,7 +1571,7 @@ textarea.form-control {
         -moz-transition-delay: 0.015s;
         transition-delay: 0.015s; }
   .ps-post--2 .ps-post__container {
-    background: linear-gradient(to left, #ecebeb,#f3efef);
+    background: linear-gradient(to left, #ececeb,#f3f2ef);
    
     padding-right: 50px;
     
