@@ -8015,3 +8015,7 @@ to {
 .address-store {
     width: 78%;}
 }
+.gmap_canvas{
+  border-radius: 2px;
+  
+}
