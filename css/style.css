@@ -4441,6 +4441,7 @@ textarea.form-control {
 
 .ps-checkout .ps-checkout__billing {
   padding-right: 100px; }
+  
   .ps-checkout .ps-checkout__billing > h3 {
     border: 2px solid #ff9b9b;
     padding: 2%;
@@ -4454,6 +4455,19 @@ textarea.form-control {
     line-height: 0.7em;
     color: #fa1717;
     text-transform: uppercase; }
+    .ps-checkout .ps-checkout__billing h4{
+      padding: 2%;
+      width: 41%;
+      text-align:center;
+      margin-bottom: 30px;
+      font-family: "Archivo Narrow", sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 0.7em;
+      color: #fa1717;
+      text-transform: uppercase;
+
+    } 
   .ps-checkout .ps-checkout__billing .form-group {
     margin-bottom: 20px; }
 
