@@ -4719,7 +4719,7 @@ textarea.form-control {
   text-transform: uppercase; }
 
 .ps-contact__block {
-  box-shadow: 0 2px 10px -2px #fa1717;
+  box-shadow: 0 2px 10px -2px #4e4e4e;
   margin-bottom: 30px;
   padding: 15px;
   -webkit-border-radius: 4px;
