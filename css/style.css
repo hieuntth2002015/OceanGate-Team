@@ -925,15 +925,14 @@ textarea.form-control {
     margin-right: 20px; }
 
 .ps-form--comment h3 {
-  padding: 2%;
-    box-shadow: 0 2px 10px -2px #fa1717;
-    
-    margin-right: 759px;
+
+   
+    margin-right: 730px;
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 700;
   text-align: left;
-  color: #313131; }
+  color: #ff0707; }
 
 .ps-form--comment .form-control {
   -webkit-border-radius: 0;
@@ -1497,19 +1496,18 @@ textarea.form-control {
   -moz-flex-flow: row nowrap;
   flex-flow: row nowrap; }
   .ps-post--2:hover{
-    box-shadow: 0 2px 10px -2px #fa1717;
+    box-shadow: 0 2px 10px -2px #505050;
   }
   .ps-post--2 .ps-post__thumbnail {
    
-    
     margin-left:0%;
-    min-width: 450px;
+    min-width: 500px;
     position: relative;
     -webkit-border-radius: 5px 5px 0 0;
     -moz-border-radius: 5px 5px 0 0;
     -ms-border-radius: 5px 5px 0 0;
     border-radius: 5px 5px 0 0; }
-    .ps-post--2 .ps-post__thumbnail > a {
+    .ps-post--2 .ps-post__thumbnail > a {border-right: 1px solid rgb(240, 240, 240);
       position: absolute;
       top: 0;
       left: 0;
@@ -1571,7 +1569,7 @@ textarea.form-control {
         -moz-transition-delay: 0.015s;
         transition-delay: 0.015s; }
   .ps-post--2 .ps-post__container {
-    background: linear-gradient(to left, #ececeb,#f3f2ef);
+   
    
     padding-right: 50px;
     
@@ -1708,6 +1706,7 @@ textarea.form-control {
         min-width: 100%;
         margin-bottom: 30px; }
         .ps-post--2 .ps-post__thumbnail img {
+          
           width: 100%; }
       .ps-post--2 .ps-post__container {
         width: 100%;
@@ -2069,7 +2068,7 @@ textarea.form-control {
     left: -15px;
     width: calc(100% + 30px);
     height: calc(100% + 108px);
-    border: 1px solid rgb(248, 0, 0);
+    border: 1px solid rgb(196, 196, 196);
     z-index: 1000;
     visibility: hidden;
     opacity: 0;
@@ -2095,10 +2094,10 @@ textarea.form-control {
     position: relative;
     z-index: 100; }
   .ps-shoe .ps-shoe__thumbnail {
-	margin: 0;
+	margin: 10px;
 	padding: 0;
-  background: linear-gradient(to left, #fcb901, #fa1717);
-  /*box-shadow: 0 8px 65px -5px #CD106E;*/
+  
+  box-shadow: 0 2px 10px -5px #949494;
   overflow: hidden;
   
   }
@@ -2172,6 +2171,7 @@ textarea.form-control {
   .ps-shoe .ps-shoe__variant img:hover {
     cursor: pointer; }
   .ps-shoe .ps-shoe__detail {
+    padding-left: 10px;
     margin-bottom: 0;
     position: relative;
     min-height: 60px;
@@ -2330,7 +2330,7 @@ textarea.form-control {
   width: 80px;
   height: 35px;
   z-index: 10;
-  background: linear-gradient(to left, #bb0318, #f45c43);
+  background-color: black;
 }
   .ps-badge > span {
     position: absolute;
@@ -2348,7 +2348,7 @@ textarea.form-control {
   .ps-badge--sale {
     background-color: #fa1717; }
   .ps-badge--2nd {
-    top: 50px; }
+    top: 35px; }
 
 .masonry-wrapper {
   margin: 0; }
@@ -3198,17 +3198,17 @@ textarea.form-control {
 }
 
 .ps-section__title .cd{
-  box-shadow: 0 2px 10px -2px #CD106E;
+ 
   text-align: center;
   position: relative;
   display: block;
   color: #fa1717;
-  font-size:14px;
-  font: bold 25px Georgia, Serif;
+  
+  font: bold 40px Georgia, Serif;
   text-decoration: none;  
-  margin:30px 0;
-  border:2px solid #ff7675;
-  padding: 14px 60px;
+  margin:15px 0;
+ 
+ 
   text-transform: uppercase;
   overflow: hidden;
   transition: 1s all ease;
@@ -4443,22 +4443,22 @@ textarea.form-control {
   padding-right: 100px; }
   
   .ps-checkout .ps-checkout__billing > h3 {
-    border: 2px solid #ff9b9b;
-    padding: 2%;
+    
+    
     width: 41%;
-    text-align:center;
-    box-shadow: 0 2px 10px -2px #fa1717;
+    
+    
     margin-bottom: 30px;
     font-family: "Archivo Narrow", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 0.7em;
     color: #fa1717;
     text-transform: uppercase; }
     .ps-checkout .ps-checkout__billing h4{
-      padding: 2%;
+      
       width: 41%;
-      text-align:center;
+      
       margin-bottom: 30px;
       font-family: "Archivo Narrow", sans-serif;
       font-size: 30px;
@@ -4587,6 +4587,7 @@ textarea.form-control {
   -moz-flex-flow: row nowrap;
   flex-flow: row nowrap; }
   .ps-cart-listing .ps-cart__actions .ps-cart__promotion {
+    margin-top: 20px;
     min-width: calc(100% - 350px);
     width: calc(100% - 350px); }
     .ps-cart-listing .ps-cart__actions .ps-cart__promotion .form-group {
@@ -7201,8 +7202,8 @@ html .bg--parallax {
  
 .overlay1 {
   background: #fa1717;
-  background: -webkit-linear-gradient(to left, #fa1717, #fa0800);
-	background: linear-gradient(to left, #fa1717, #ffe601);
+ 
+	background: linear-gradient(#fa1717, #ff7c01);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -7362,20 +7363,21 @@ html .bg--parallax {
 }
 
 .blu{
-  box-shadow: 0 2px 10px -2px #CD106E;
+  
   position: relative;
   display: block;
   color: #fa1717;
-  font-size:14px;
-  font: bold 25px Georgia, Serif;
+  
+  font: bold 40px Georgia, Serif;
   text-decoration: none;  
   margin:30px 0;
-  border:2px solid #ff7675;
-  padding: 14px 60px;
+ 
+  
   text-transform: uppercase;
   overflow: hidden;
   transition: 1s all ease;
 }
+/*
 .blu::before{
   content: "";
   background: linear-gradient(to left,#eecda3  ,   #ef629f);  
@@ -7385,7 +7387,7 @@ html .bg--parallax {
   transform: translate(-50%,-50%);
   z-index:-1;
   transition: all 0.6s ease;
-}
+}*/
 .drive::before{
  
  width:100%;
@@ -7959,7 +7961,7 @@ to {
   position: absolute;
   top: 0;
  
-  right: -15px;
+  right: 702px;
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -8032,4 +8034,8 @@ to {
 .gmap_canvas{
   border-radius: 2px;
   
+}
+
+.filterDiv{
+  display: none;
 }
