@@ -15,4 +15,4 @@ Nguyễn Tuấn anh
 
 <> Link GitHub: https://github.com/hieuntth2002015/Oceangate-team
 
---> project start date: 30-08-2020 8:00am (first commit by Hientth2002015)
+--> project start date: 30-08-2020 8:00am (first commit by Hieuntth2002015)
