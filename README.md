@@ -6,8 +6,11 @@ Power by: OceanGateTeam
 Thành viên:
 
 Nguyễn Trung Hiếu (Team Leader)
+
 Đỗ Thị Ngần 
+
 Trần Xuân Hiệp  
+
 Nguyễn Tuấn anh
 
 <> Link GitHub: https://github.com/hieuntth2002015/Oceangate-team
